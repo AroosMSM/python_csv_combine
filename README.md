@@ -16,6 +16,8 @@ This will conbine csv files in sub folders and create one csv file inside "Final
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 # csv combine file
 
+
+```
 from operator import truediv
 import pandas as pd
 import pathlib
@@ -57,4 +59,6 @@ try:
 
 except:
     print("No csv file to combine. No file will be created.")
+    
+```
 
